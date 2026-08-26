@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recomendação — Hackathon Jovens Talentos AI Builder 2026 | Seazone</title>
+<style>
+  :root{
+    --navy:#00143D; --azul:#0055FF; --coral:#FC6058; --verde:#0F9D58;
+    --tinta:#0E1B33; --suave:#4A5A78; --linha:#DCE3EF; --fundo:#F4F7FC; --branco:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:var(--tinta); background:var(--fundo); line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto;padding:0 24px 80px}
+
+  header{background:var(--navy);color:#fff;padding:64px 0 56px;margin-bottom:44px}
+  header .wrap{padding-bottom:0}
+  .tag{display:inline-block;background:var(--coral);color:#fff;font-size:12px;font-weight:700;
+       letter-spacing:.14em;text-transform:uppercase;padding:6px 14px;border-radius:3px;margin-bottom:22px}
+  header h1{font-size:40px;line-height:1.12;font-weight:700;letter-spacing:-.02em;margin-bottom:16px}
+  header p{font-size:19px;color:#A9BCDD;max-width:640px}
+  .meta{display:flex;flex-wrap:wrap;gap:34px;margin-top:34px;padding-top:26px;border-top:1px solid rgba(255,255,255,.16)}
+  .meta div span{display:block;font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:#7D93BC;margin-bottom:5px}
+  .meta div b{font-size:17px;font-weight:700}
+
+  section{background:var(--branco);border:1px solid var(--linha);border-radius:10px;
+          padding:34px 38px;margin-bottom:22px}
+  h2{font-size:13px;letter-spacing:.15em;text-transform:uppercase;color:var(--azul);
+     font-weight:700;margin-bottom:20px;display:flex;align-items:center;gap:10px}
+  h2::before{content:"";width:26px;height:3px;background:var(--azul);border-radius:2px}
+  h3{font-size:19px;font-weight:700;margin:24px 0 10px;color:var(--navy)}
+  h3:first-of-type{margin-top:0}
+  p{margin-bottom:13px;font-size:16px}
+  p:last-child{margin-bottom:0}
+  strong{font-weight:700;color:var(--navy)}
+  a{color:var(--azul)}
+  code{background:var(--fundo);border:1px solid var(--linha);border-radius:4px;
+       padding:2px 6px;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;color:var(--navy)}
+
+  ul,ol{margin:0 0 13px 22px}
+  li{margin-bottom:8px;font-size:16px}
+
+  .lead{font-size:18px;color:var(--suave)}
+  .destaque{background:#EAF0FF;border-left:4px solid var(--azul);border-radius:0 8px 8px 0;
+            padding:18px 22px;margin:20px 0}
+  .alerta{background:#FFF0EF;border-left:4px solid var(--coral);border-radius:0 8px 8px 0;
+          padding:18px 22px;margin:20px 0}
+  .alerta b{color:#C0362B}
+  .sucesso{background:#EAF9EF;border-left:4px solid var(--verde);border-radius:0 8px 8px 0;
+          padding:18px 22px;margin:20px 0}
+  .sucesso b{color:var(--verde)}
+
+  table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+  th{background:var(--navy);color:#fff;text-align:left;padding:10px 12px;font-size:11px;
+     letter-spacing:.08em;text-transform:uppercase;font-weight:700}
+  td{padding:10px 12px;border-bottom:1px solid var(--linha);vertical-align:top}
+  tr:last-child td{border-bottom:0}
+  tbody tr:nth-child(even){background:#FAFCFF}
+  tbody tr.destaque-linha{background:#EAF9EF}
+  td.num{text-align:right;font-variant-numeric:tabular-nums}
+  th.num{text-align:right}
+
+  figure{margin:22px 0}
+  figure img{width:100%;height:auto;border:1px solid var(--linha);border-radius:8px;display:block}
+  figcaption{font-size:13px;color:var(--suave);margin-top:8px;text-align:center}
+
+  code.formula{display:block;background:var(--fundo);border:1px solid var(--linha);border-radius:8px;
+       padding:14px 18px;margin:14px 0;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;color:var(--navy)}
+
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 0}
+  .card{border:1px solid var(--linha);border-radius:8px;padding:16px 18px;background:#FCFDFF}
+  .card b{display:block;color:var(--navy);font-size:15px;margin-bottom:6px}
+  .card .val{font-size:24px;font-weight:700;color:var(--azul)}
+  .card small{display:block;color:var(--suave);font-size:13px;margin-top:6px}
+
+  footer{text-align:center;padding:44px 0 0;color:var(--suave);font-size:14px}
+  footer b{display:block;color:var(--navy);font-size:17px;margin-bottom:6px}
+
+  @media (max-width:640px){
+    header h1{font-size:28px} section{padding:26px 22px}
+    .meta{gap:22px} table{font-size:13px} th,td{padding:8px 9px}
+    .cards{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff} header{padding:34px 0}
+    section{break-inside:avoid;box-shadow:none;border:1px solid #ccc}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="tag">Hackathon &middot; Recomendação Final</div>
+    <h1>Recomendação de Investimento<br>Itapema &middot; SC</h1>
+    <p>Onde e o que construir — apartamentos, análise em duas camadas independentes (tamanho e localização).</p>
+    <div class="meta">
+      <div><span>O que construir</span><b>Studio/1 quarto</b></div>
+      <div><span>Melhor R$/m²</span><b>Meia Praia (12,12)</b></div>
+      <div><span>Alternativa próxima</span><b>Centro (10,71)</b></div>
+      <div><span>Retorno estimado</span><b>14,1%–21,7% a.a.</b></div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>O modelo de negócio da Seazone</h2>
+    <p>Não é uma incorporadora tradicional. Ela estrutura uma <strong>SPE por obra</strong>:
+    investidores entram como sócios da construção, o terreno fica em nome da SPE, e cada obra é
+    <strong>autofinanciada só pelos próprios investidores</strong> (ticket médio ~R$ 250 mil,
+    parcelado 48–54 meses) — sem margem de incorporadora tradicional. Depois de pronto, opera as
+    unidades como short stay via microfranquias (8% da receita de diária). A empresa já vende esse
+    exato produto sob a marca <strong>"SPOT"</strong>, com ticket público no marketplace — usado
+    como preço real de custo para estimar retorno (seção abaixo).</p>
+    <p><strong>Só constrói apartamentos</strong> — por isso toda a análise usa só
+    <code>listing_type == "apartamento"</code>. <strong>Studio e 1 quarto foram unidos numa
+    categoria só</strong>: studio sozinho tinha só 8 anúncios com preço na cidade inteira.</p>
+  </section>
+
+  <section>
+    <h2>Por que a métrica principal é receita por m²</h2>
+    <p>Um terreno sustenta várias unidades — não é "1 terreno = 1 apartamento". O custo de terra é
+    <strong>diluído</strong> entre elas, e o custo de obra por m² tende a ser parecido entre bairros
+    da mesma cidade. Sem dado de quantas unidades cabem em cada terreno (depende de
+    zoneamento/gabarito — que está mudando agora em Itapema, ver riscos), a métrica mais confiável
+    é:</p>
+    <code class="formula">R$/m² = ADR mediano do Airbnb ÷ área útil mediana do apartamento pronto equivalente (VivaReal)</code>
+    <p>Terreno entra só como <strong>contexto de liquidez/execução</strong> (quantos lotes existem à
+    venda), não como base de cálculo de retorno.</p>
+  </section>
+
+  <section>
+    <h2>Camada 1 — O que construir</h2>
+    <figure>
+      <img src="outputs/figures/q1_receita_por_m2.png" alt="Receita por m² por número de quartos">
+      <figcaption>R$ de ADR por m², por número de quartos (apartamentos, cidade toda)</figcaption>
+    </figure>
+    <div class="cards">
+      <div class="card"><b>Studio/1 quarto</b><span class="val">R$ 10,08/m²</span><small>43 m² · n=114</small></div>
+      <div class="card"><b>2 quartos</b><span class="val">R$ 6,86/m²</span><small>70 m² · n=333</small></div>
+      <div class="card"><b>3 quartos</b><span class="val">R$ 5,46/m²</span><small>127 m² · n=390</small></div>
+    </div>
+    <p><strong>Studio/1 quarto rende quase o dobro por m² de qualquer outra tipologia</strong> — e
+    esse padrão se confirma nos dois bairros com amostra suficiente para checar todas as
+    tipologias (Centro e Meia Praia), não é artefato de um bairro só.</p>
+
+    <h3>Retorno estimado (ancorado em preço real de mercado)</h3>
+    <p>Usamos o preço real de um produto que a Seazone já vende — os <strong>SPOTs</strong>
+    (apartamentos compactos de short stay, ticket público no marketplace) — como custo para estimar
+    retorno sobre a nossa própria receita por m².</p>
+    <p><strong>Comparável mais próximo</strong>: SPOT Ponta das Canas (Florianópolis/SC), 9 unidades
+    de 1 quarto, <strong>16,86–49,93 m²</strong> (mesma faixa do nosso Studio/1 quarto), ticket
+    <strong>R$ 220.000–423.000</strong> → <strong>R$ 8.472–13.049/m²</strong>. A Seazone divulga
+    17,7% a.a. para esse SPOT específico (referência, não usado no cálculo).</p>
+    <table>
+      <thead>
+        <tr><th>Cenário (preço do ticket)</th><th class="num">Cap rate estimado</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Unidade menor do comparável (R$ 13.049/m²)</td><td class="num">14,1% a.a.</td></tr>
+        <tr class="destaque-linha"><td>Unidade maior, mais parecida com nossa área média (R$ 8.472/m²)</td><td class="num"><strong>21,7% a.a.</strong></td></tr>
+      </tbody>
+    </table>
+    <div class="sucesso">
+      <p><b>Faixa: 14,1%–21,7% a.a.</b> — cai dentro do que a Seazone declara para o produto SPOT em
+      geral (13%–23% a.a., em 5 SPOTs pesquisados) e perto do comparável mais próximo (17,7% a.a.).
+      Nosso cálculo é independente (receita 100% dos nossos dados), mas aterrissa na mesma faixa que
+      o mercado já pratica. <strong>Só apartamentos compactos têm esse comparável real</strong> — a
+      Seazone não vende SPOTs de 2+ quartos, mais uma evidência de que o mercado já validou a tese
+      do compacto.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Camada 2 — Onde construir</h2>
+    <figure>
+      <img src="outputs/figures/q4_r_m2_por_bairro.png" alt="Onde construir Studio/1 quarto">
+      <figcaption>R$/m² de Studio/1 quarto por bairro — barra clara = amostra pequena, só ilustrativo</figcaption>
+    </figure>
+    <table>
+      <thead>
+        <tr><th>Bairro</th><th class="num">R$/m² (Studio/1q)</th><th class="num">Amostra</th><th class="num">Terrenos à venda</th></tr>
+      </thead>
+      <tbody>
+        <tr class="destaque-linha"><td><strong>Meia Praia</strong></td><td class="num"><strong>R$ 12,12</strong></td><td class="num">n=28</td><td class="num">5</td></tr>
+        <tr><td>Centro</td><td class="num">R$ 10,71</td><td class="num">n=78</td><td class="num">0</td></tr>
+        <tr><td>Morretes</td><td class="num">R$ 8,72</td><td class="num">n=4 (amostra pequena)</td><td class="num">76</td></tr>
+      </tbody>
+    </table>
+    <figure>
+      <img src="outputs/figures/q4_terrenos_por_bairro.png" alt="Terra disponível por bairro">
+      <figcaption>Nº de terrenos à venda por bairro (contexto de liquidez, não de custo)</figcaption>
+    </figure>
+    <p><strong>Meia Praia</strong> tem o melhor R$/m² e o maior potencial de receita da cidade
+    (Q2) — mas só 5 terrenos à venda hoje, pouco para escala, e tende a inflar o preço desses lotes
+    escassos assim que alguém tentar comprar. <strong>Centro</strong> vem logo atrás (R$ 10,71/m²,
+    amostra robusta) e tem potencial de receita razoável — mas não há terreno listado hoje (ressalva
+    de execução, não motivo de exclusão: vale prospecção off-market). <strong>Morretes</strong> tem
+    de longe mais terreno disponível (76), mas a amostra de compacto lá é pequena demais (n=4) para
+    confiar no número. <strong>Ilhota</strong> tem só 5 anúncios de apartamento com preço no Airbnb
+    e 5 terrenos à venda — abaixo do corte de confiabilidade, dado insuficiente, não rejeição.</p>
+    <div class="destaque">
+      <p><b>Não existe uma resposta única de bairro</b> — depende da prioridade: retorno máximo por
+      m² (Meia Praia, com escassez de terreno), retorno quase igual sem essa escassez confirmada
+      (Centro, sem terreno listado hoje), ou execução em escala garantida agora (Morretes, sem
+      confirmação de que compacto funciona bem lá e com risco regulatório documentado).</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Veredito sobre a tese interna</h2>
+    <p class="lead">A hipótese a validar: <em>"apartamentos compactos (studio/1 quarto) na região do Centro."</em></p>
+    <div class="sucesso">
+      <p><b>A parte "compacto" está fortemente confirmada</b> — quase o dobro de receita por m² de
+      qualquer outra tipologia, em dois bairros diferentes, e validada de forma independente pelo
+      próprio mercado (SPOTs da Seazone, retorno real 13-23% a.a. só nesse formato). <b>A parte
+      "Centro" é competitiva, não descartável</b>: R$ 10,71/m² é o 2º melhor da cidade, muito perto
+      do líder.</p>
+    </div>
+    <p>O que a tese não previa: <strong>Meia Praia empata ou levemente supera o Centro</strong>
+    tanto em receita por m² quanto em potencial de receita geral — vale considerar como alternativa
+    de prioridade equivalente, com o mesmo tipo de ressalva de execução (lá por escassez de terreno,
+    não por ausência dele).</p>
+  </section>
+
+  <section>
+    <h2>Riscos e contexto regulatório</h2>
+    <p>Pesquisa externa (não está nos dados) — qualitativo, não ajusta os números acima.</p>
+    <ul>
+      <li><strong>Meia Praia</strong>: regra de "cone de sombra" limita altura na orla, mas a Lei
+      Complementar 113/2021 criou a Operação Urbana Consorciada Meia Praia — outorga onerosa para
+      construir mais alto, financiando alargamento de praia (~R$ 180 mi). Ainda depende de
+      licenciamento ambiental, mas pode liberar mais densidade construtiva no médio prazo
+      (oportunidade a favor de Meia Praia).</li>
+      <li><strong>Morretes</strong>: parte é área de encosta — declive acima de 45° é APP, não
+      edificável por lei federal. Monitoramento ativo de risco geológico (Morro Feijó) e histórico
+      de ocupação irregular. Está num programa municipal de <strong>regularização fundiária
+      (REURB)</strong> por origem em loteamentos abandonados — nem todos os 76 terrenos listados são
+      necessariamente prontos para construir sem checagem individual.</li>
+      <li><strong>Casa Branca, Tabuleiro dos Oliveiras e Ilhota</strong> também estão no mesmo
+      programa de REURB.</li>
+      <li><strong>Centro</strong>: nenhuma restrição especial encontrada, mas segue sem terreno
+      listado hoje.</li>
+      <li>Itapema está com Plano Diretor e Código de Obras em revisão recente (2024/2025) — o
+      ambiente regulatório está mudando agora.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Pergunta 2 — Melhor localização por receita (apartamentos)</h2>
+    <figure>
+      <img src="outputs/figures/q2_score_por_bairro.png" alt="Potencial de receita por bairro">
+      <figcaption>Revenue Potential Score mediano por bairro (apartamentos, mín. 10 anúncios)</figcaption>
+    </figure>
+    <p><strong>Meia Praia</strong> lidera com folga (score 306, n=607). <strong>Centro fica em 4º
+    lugar</strong> (score 177, n=193). Ilhota, Canto da Praia e Alto São Bento ficaram de fora por
+    amostra insuficiente.</p>
+  </section>
+
+  <section>
+    <h2>Pergunta 3 — O que explica melhores receitas (apartamentos)</h2>
+    <figure>
+      <img src="outputs/figures/q3_regressao_features.png" alt="Regressão — o que explica receita">
+      <figcaption>Coeficientes padronizados de uma regressão linear múltipla (R²=0,114), controlando pelo número de quartos</figcaption>
+    </figure>
+    <p>Após controlar o tamanho, os fatores com maior efeito positivo são: <strong>anos de
+    experiência do anfitrião</strong>, <strong>ser superhost</strong>, número de banheiros, reserva
+    instantânea, nota média e nº de amenidades. Anfitrião "profissional" tem efeito
+    <strong>negativo</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Próximos passos</h2>
+    <ol>
+      <li>Prospecção direta de terreno em Centro e Meia Praia (fora do estoque hoje listado) — os
+      dois bairros com melhor R$/m² para compacto são justamente os com menos oferta pública.</li>
+      <li>Checar individualmente declividade/APP e regularização fundiária de qualquer terreno em
+      Morretes antes de negociar — o estoque de 76 lotes não é homogêneo em risco.</li>
+      <li>Buscar dado de ocupação real do Airbnb para substituir o proxy de ADR × reviews.</li>
+      <li>Acompanhar o licenciamento ambiental da Operação Consorciada Meia Praia — se aprovado,
+      pode liberar mais densidade construtiva ali.</li>
+      <li>Coletar mais amostra de Airbnb Studio/1 quarto em Morretes (hoje só 4 anúncios) antes de
+      confirmar ou descartar esse bairro para a tipologia compacta.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <b>Análise completa, código e logs de IA no repositório.</b>
+    <p style="margin-top:6px"><a href="README.md">README.md</a> &middot; <a href="relatorio.md">relatorio.md</a> &middot; <a href="ai-log/">ai-log/</a></p>
+    <p style="margin-top:14px">Seazone — Jovens Talentos AI Builder 2026</p>
+  </footer>
+
+</div>
+</body>
+</html>
