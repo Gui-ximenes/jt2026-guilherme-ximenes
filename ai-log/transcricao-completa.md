@@ -129,6 +129,13 @@ transcrição completa.
 gerar a transcricao completa"
 
 **Claude:** Concordou em deixar para o final (é o que está sendo feito agora, nesta seção).
+Perguntou se, mesmo assim, já podia commitar e enviar o que estava pronto ao GitHub, ou se o
+candidato preferia revisar antes.
+
+**Candidato:** "vamos revisar antes"
+
+**Claude:** Confirmou que não faria commit por enquanto, e ficaria à disposição enquanto o
+candidato revisava `resultados.html`, `RECOMENDACAO.md` e os scripts.
 
 Em seguida veio a pergunta citada acima sobre Centro e a captura de tela.
 
@@ -359,9 +366,6 @@ transparente de tentativa descartada).]
 ---
 
 ## 11. Auditoria final antes do commit
-
-**Candidato:** "agora limpe o html de informacoes passadas e erros que corrigimos..." *(já coberto
-na seção 9 — esta segunda leitura confirma a instrução original)*
 
 **Candidato:** "perfeito, agora revise tudo que vai subir no git para verificar se as informacoes
 estao condizentes com o resultado final"
