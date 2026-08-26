@@ -1,4 +1,4 @@
-[🎥 VÍDEO (até 3 min) — LINK A SER ADICIONADO APÓS A GRAVAÇÃO](#)
+[🎥 VÍDEO (até 3 min)](https://drive.google.com/file/d/1M5QGBR6hAUMCnZPsSH8DhVqhEU17rW9J/view?usp=sharing)
 
 # Jovens Talentos AI Builder 2026 — Recomendação de Investimento (Itapema/SC)
 
